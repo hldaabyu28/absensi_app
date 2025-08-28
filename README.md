@@ -1,54 +1,26 @@
 # Absensi App
 
-Fitur Utama
-✅ Autentikasi Firebase - Login/Register dengan email & password
-✅ Validasi Lokasi - Harus berada dalam radius 100m dari kantor
-✅ Foto Selfie - Wajib mengambil selfie sebagai bukti kehadiran
-✅ Riwayat Absensi - Melihat history absensi dengan foto thumbnail
-✅ State Management - Provider pattern untuk state management
-✅ Real-time Clock - Menampilkan waktu real-time
-Tech Stack
+### Tutorial menjalankan aplikasi
 
-Flutter 3.x dengan Dart
-Firebase Auth - Autentikasi pengguna
-Cloud Firestore - Database untuk menyimpan data absensi
-Cloudinary - Storage untuk menyimpan foto selfie
-Provider - State management
-Geolocator - GPS dan validasi lokasi
-Image Picker - Akses kamera untuk selfie
+- Download file build apk pada link https://drive.google.com/file/d/1cGmjrjhfRboCJyzXTp2XD375GPwYmqKM/view?usp=sharing
+- Install file yang telah di download
+- Buka aplikasi kemudian login dengan
+    email : example@gmail.com
+    password : password
+- Unttuk akses izinkan akses jika diminta
 
-Setup Project
-1. Clone Repository
-bashgit clone <repository-url>
-cd absensi_app
-2. Install Dependencies
-bashflutter pub get
-3. Setup Firebase
-a. Buat Project Firebase
+### Plugin yang digunakan
 
-Buka Firebase Console
-Klik "Create a project" atau "Add project"
-Masukkan nama project (contoh: "absensi-app")
-Enable Google Analytics (opsional)
-Klik "Create project"
-
-b. Setup Authentication
-
-Di Firebase Console, pilih "Authentication"
-Klik tab "Sign-in method"
-Enable "Email/Password"
-Klik "Save"
-
-c. Setup Firestore Database
-
-Di Firebase Console, pilih "Firestore Database"
-Klik "Create database"
-Pilih "Start in test mode" (untuk development)
-Pilih lokasi server (pilih yang terdekat dengan user)
-Klik "Done"
-
-d. Setup Cloudinary Storage
-
-Buat akun di Cloudinary
-Dapatkan Cloud Name dan buat Upload Preset
-Ikuti panduan lengkap di CLOUDINARY_SETUP.md
+cupertino_icons: ^1.0.8
+firebase_core: ^4.0.0
+provider: ^6.1.5+1
+intl: ^0.20.2
+geolocator: ^14.0.2
+geocoding: ^4.0.0
+image_picker: ^1.2.0
+firebase_auth: ^6.0.1
+cloud_firestore: ^6.0.0
+cloudinary_public: ^0.23.1
+permission_handler: ^12.0.1
+http: ^1.5.0
+flutter_dotenv: ^6.0.0
