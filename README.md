@@ -2,7 +2,7 @@
 
 ### Tutorial menjalankan aplikasi
 
-- Download file build apk pada link https://drive.google.com/file/d/1cGmjrjhfRboCJyzXTp2XD375GPwYmqKM/view?usp=sharing
+- Download file build apk pada link https://drive.google.com/file/d/1L91nCagZJG5Hk89KkXzjHef5r6zuaMWQ/view?usp=sharing
 - Install file yang telah di download
 - Buka aplikasi kemudian login dengan
     email : example@gmail.com
