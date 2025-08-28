@@ -9,6 +9,14 @@
     password : password
 - Unttuk akses izinkan akses jika diminta
 
+
+### Tutorial Merubah titik Koordinat
+- buka file ```lib\features\attendance\presentation\providers\attendance_provider.dart```
+- kemudian ubah bagian 
+```const officeLatitude = -8.176523;```
+```const officeLongitude = 111.939464;```
+dengan lokasi anda ketika masuk kedalam aplikasi 
+
 ### Plugin yang digunakan
 
 cupertino_icons: ^1.0.8
