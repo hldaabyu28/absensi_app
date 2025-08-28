@@ -16,7 +16,7 @@
 ```const officeLatitude = -8.176523;```
 ```const officeLongitude = 111.939464;```
 dengan lokasi anda ketika masuk kedalam aplikasi
-<img width="720" height="1600" alt="Image" src="https://github.com/user-attachments/assets/b6848d33-9943-4400-adea-8a9ce6881bef" />
+<img width="400" height="1000" alt="Image" src="https://github.com/user-attachments/assets/b6848d33-9943-4400-adea-8a9ce6881bef" />
 
 ### Plugin yang digunakan
 
